@@ -1,0 +1,9 @@
+def av_para(n):
+    sum_n = 0
+    for t in n:
+        sum_n = sum_n + t           
+
+    avg = sum_n / len(n)
+    return avg
+
+print("The average is : ", av_para([12,23,34,45,56]))

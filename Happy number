@@ -1,0 +1,17 @@
+n=int(input("Enter a number: "))
+t=n
+add=0
+while(True):
+    while(t>0):
+        rem=t%10
+        t=t//10
+        add=add+(rem*rem)
+    if(add==1):
+        print("Happy number")
+        break
+    elif(add==4):
+        print("Not Happy Number")
+        break
+    else:
+        t=add
+        add=0

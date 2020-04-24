@@ -1,0 +1,10 @@
+def remove_odd(l):
+    for i in l:
+        if i % 2 != 0:
+            l.remove(i)
+    print (l)
+    return l
+
+remove_odd([3,6,9])
+remove_odd([3,6,9,12])
+remove_odd([3,6,9,12,15,18])

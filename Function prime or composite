@@ -1,0 +1,15 @@
+def prime(n):
+    status=True
+    if(n<2):
+        status=False
+    else:
+        for i in range(2,n):
+            if(n%i==0):
+                status=False
+    if status:
+        print("Prime  Number")
+    else:
+        print("Composite Number")
+
+n=int(input("Enter a Number: "))
+prime(n)

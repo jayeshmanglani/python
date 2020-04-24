@@ -1,0 +1,6 @@
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+print("Sum: ",a+b)
+print("Product: ",a*b)
+print("Sub b-a: ",b-a, "\nSub a-b: ",a-b)
+print("Div b/a: ",b/a, "\nDiv a/b: ",a/b)

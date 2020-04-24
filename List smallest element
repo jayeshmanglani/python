@@ -1,0 +1,8 @@
+def comp(l,m):
+    for i in range(0,len(l)):
+        if(l[i]<m):
+            m=l[i]
+    return m
+l=[1,92,32,40,5]
+m=92
+print(comp(l,m))

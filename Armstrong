@@ -1,0 +1,20 @@
+a=int(input("Enter the Number: "))
+add=0
+count=0
+temp=a
+temp1=a      
+while(a):
+      r=a%10
+      a=a//10
+      count=count+1   
+while(temp):
+      t=temp%10
+      pr=t**count
+      add=add+pr
+      temp=temp//10
+      
+if(add==temp1):
+    print("Armstrong")
+else:
+    print("Not Armstrong")
+    

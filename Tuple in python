@@ -1,0 +1,11 @@
+t=('A','B','C','D')
+print(t)
+
+t1=(1,2,3,4,5)
+print("Tuple with numbers: ",t1)
+print(t1[3])
+
+l=(list(t))
+l.insert(5,'E')
+print("List conversion to tuple: ",tuple(l))
+print("Length of tuple: ",len(t))

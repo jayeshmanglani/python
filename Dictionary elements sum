@@ -1,0 +1,7 @@
+d = {'x': 300, 'y':600, 'z':700}
+print("Dictionary: ", d)
+total = 0
+for i in d.values():
+    total = total + i
+    
+print("The Total Sum of Values : ", total)

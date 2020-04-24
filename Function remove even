@@ -1,0 +1,10 @@
+def remove_even(l):
+    for i in l:
+        if i % 2 == 0:
+            l.remove(i)
+    print (l)
+    return l
+
+remove_even([5,10,15])
+remove_even([5,10,15,20,25])
+remove_even([5,10,15,20,25,30,35,40])
